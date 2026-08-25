@@ -2,7 +2,7 @@ import { afterEach, describe, expect, test } from 'bun:test'
 import { mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
-import markdownCommandsPlugin from './index'
+import markdownCommandsPlugin from '../src/index'
 
 const originalConfigHome = process.env.XDG_CONFIG_HOME
 

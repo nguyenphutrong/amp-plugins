@@ -8,7 +8,7 @@ import {
 	parseMarkdownCommand,
 	renderTemplate,
 	splitArguments,
-} from './command'
+} from '../src/command'
 
 describe('parseMarkdownCommand', () => {
 	test('uses frontmatter and derives a stable ID', () => {
