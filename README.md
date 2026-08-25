@@ -9,7 +9,7 @@ This plugin follows the command-file model used by Claude Code and OpenCode whil
 Clone the repository into Amp's user plugin directory:
 
 ```sh
-git clone https://github.com/nguyenphutrong/amp-commands.git ~/.config/amp/plugins/markdown-commands
+git clone https://github.com/nguyenphutrong/amp-plugins.git ~/.config/amp/plugins/markdown-commands
 ```
 
 Reload plugins from Amp's command palette with `Ctrl+O`, then select `plugins: reload`.
