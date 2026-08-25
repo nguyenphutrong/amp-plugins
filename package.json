@@ -1,0 +1,10 @@
+{
+  "name": "amp-markdown-commands",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Register reusable Amp command-palette prompts from Markdown files.",
+  "license": "MIT",
+  "scripts": {
+    "test": "bun test"
+  }
+}
